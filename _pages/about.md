@@ -17,14 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Zhe Li is a current Ph.D. student in Computing and Information Sciences at Rochester Institite of Technology, advised by Prof. <a href="https://haibo-yang-osu.github.io/homepage/" style="text-decoration: none;">Haibo Yang</a>. He is mainly focusing on addressing issues caused by heterogeneity in Federated Learning and improving communication and memeory efficiency of FL or large-scale distributed systems by optimization technique (e.g., zeroth-order optimization). 
+# 📖 Brief Bio
+
+Hi, I am currently a Ph.D. student in Computing and Information Sciences at <a href="https://www.rit.edu/computing/" style="text-decoration: none;">Golisano College of Computing and Information Sciences</a> at <a href="https://www.rit.edu/" style="text-decoration: none;">Rochester Institute of Technology</a>, advised by Prof. <a href="https://haibo-yang-osu.github.io/homepage/" style="text-decoration: none;">Haibo Yang</a>. My research interests mainly concentrate on addressing issues caused by heterogeneity in Federated Learning and improving communication and memory efficiency of federated or large-scale distributed systems by optimization techniques (e.g., zeroth-order optimization). 
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 
 My research interests include: 
 - Distributed Machine Learning/Federated Learning
 - Optimization Theory
-  
 
 <span class='anchor' id='-xl'></span>
 
@@ -36,11 +37,11 @@ My research interests include:
 
 <span class='anchor' id='-ryjx'></span>
 
-# 🏅 News
+# 🗞️ News
 
-- [2024.08] Started to serve as Graduate Research Assistant at RIT. 
+- [2024.08] Started to serve as a Graduate Research Assistant at RIT. 
 - [2024.08] Joined Rochester Institute of Technology(RIT) for my Ph.D. in Computing and Information Sciences, advised by Prof. Haibo Yang.
-- [2024.05] Successfully got my master's degree from University of Southern California!
+- [2024.05] Successfully got my master's degree from the University of Southern California!
  
 <span class='anchor' id='-lwzl'></span>
 
@@ -85,7 +86,8 @@ My research interests include:
 <span class='anchor' id='-xshy'></span>
 
 # 🏛️ Service
-Reviewer: KDD 2024 Research Track
+
+- Reviewer: KDD 2024 Research Track
 
 <!-- <span class='anchor' id='-gzsx'></span>
 

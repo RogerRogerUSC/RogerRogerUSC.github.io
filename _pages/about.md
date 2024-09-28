@@ -18,8 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 📖 Brief Bio
-
+<p style="text-align: justify;">
 Hi, I am currently a Ph.D. student in Computing and Information Sciences at <a href="https://www.rit.edu/computing/" style="text-decoration: none;">Golisano College of Computing and Information Sciences</a> at <a href="https://www.rit.edu/" style="text-decoration: none;">Rochester Institute of Technology</a>, advised by Prof. <a href="https://haibo-yang-osu.github.io/homepage/" style="text-decoration: none;">Haibo Yang</a>. My research interests mainly concentrate on addressing issues caused by heterogeneity in Federated Learning and improving communication and memory efficiency of federated or large-scale distributed systems by optimization techniques (e.g., zeroth-order optimization). 
+</p>
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 

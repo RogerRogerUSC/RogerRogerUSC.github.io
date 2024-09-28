@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Zhe Li is a current Ph.D. student in Computing and Information Sciences at Rochester Institite of Technology. He is mainly focusing on addressing issues caused by heterogeneity in Federated Learning and improving communication and memeory efficiency of FL or large-scale distributed systems by optimization technique (e.g., zeroth-order optimization). 
+Zhe Li is a current Ph.D. student in Computing and Information Sciences at Rochester Institite of Technology, advised by Prof. <a href="https://haibo-yang-osu.github.io/homepage/" style="text-decoration: none;">Haibo Yang</a>. He is mainly focusing on addressing issues caused by heterogeneity in Federated Learning and improving communication and memeory efficiency of FL or large-scale distributed systems by optimization technique (e.g., zeroth-order optimization). 
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 

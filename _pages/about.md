@@ -31,9 +31,12 @@ My research interests include:
 
 # 🎓 Education
 <p style="text-align: justify;">
-- <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="23pt"></a> *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, Rochester Institute of Technology, Golisano College of Computing and Information Sciences, Rochester, New York, USA
-- <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> *2022.08 - 2024.05*, M.S. in Electrical Engineering, University of Southern California, Viterbi School of Engineering, Los Angeles, California, USA
-- <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> *2015.09 - 2019.07*, B.E. in Software Engineering, Shanghai University of Electric Power, College of Computer Science and Technology, Shanghai, CHN
+
+- *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="25pt"></a> Rochester Institute of Technology, Rochester, New York, USA
+  
+- *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA
+
+- *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN
 </p>
  
 <span class='anchor' id='-lwzl'></span>

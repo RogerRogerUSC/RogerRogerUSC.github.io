@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhe Li"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Ph.D. student at RIT"
+  bio              : "CS Ph.D. student at RIT"
   location         : "Rochester, NY"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lGXOg-8AAAAJ"
-  email            : "zl4063@rit.edu or zli71427@usc.edu"
+  email            : "zl4063@rit.edu"
   researchgate     : "https://www.researchgate.net/profile/Zhe-Li-171"
   uri              : 
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/RogerRogerUSC"
+  github           : "RogerRogerUSC"
   google_plus      :
   keybase          :
   instagram        :

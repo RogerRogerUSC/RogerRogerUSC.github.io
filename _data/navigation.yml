@@ -9,11 +9,11 @@ main:
   - title: "Publications"
     url: "/zh-cn/#-lwzl"
 
-  - title: "Awards"
-    url: "/zh-cn/#-ryjx"
+  # - title: "Awards"
+  #   url: "/zh-cn/#-ryjx"
 
-  - title: "Conferences"
+  - title: "Service"
     url: "/zh-cn/#-xshy"
 
-  - title: "Work"
-    url: "/zh-cn/#-gzsx"
+  # - title: "Work"
+  #   url: "/zh-cn/#-gzsx"

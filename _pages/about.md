@@ -30,9 +30,11 @@ My research interests include:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 Education
+<p style="text-align: justify;">
 - <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="23pt"></a> *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, Rochester Institute of Technology, Golisano College of Computing and Information Sciences, Rochester, New York, USA
 - <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> *2022.08 - 2024.05*, M.S. in Electrical Engineering, University of Southern California, Viterbi School of Engineering, Los Angeles, California, USA
 - <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> *2015.09 - 2019.07*, B.E. in Software Engineering, Shanghai University of Electric Power, College of Computer Science and Technology, Shanghai, CHN
+</p>
  
 <span class='anchor' id='-lwzl'></span>
 
@@ -71,15 +73,16 @@ My research interests include:
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) -->
 
 
-<!-- 
-<span class='anchor' id='-ryjx'></span>
 
-# 🏅 荣誉奖项
+<!-- <span class='anchor' id='-ryjx'></span>
+
+# 🏅 荣誉奖项 -->
 
 <span class='anchor' id='-xshy'></span>
 
-# 🏛️ 学术会议
+# 🏛️ Service
+Reviewer: KDD 2024 Research Track
 
-<span class='anchor' id='-gzsx'></span>
+<!-- <span class='anchor' id='-gzsx'></span>
 
 # 💻 工作实习 -->

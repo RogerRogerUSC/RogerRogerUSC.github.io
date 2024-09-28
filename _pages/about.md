@@ -34,6 +34,11 @@ My research interests include:
 - *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA
 - *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN
 
+<span class='anchor' id='-ryjx'></span>
+
+# 🏅 News
+
+- [2024.08] Start to study for my Ph.D. at Rochester Institute of Technology, advised by Haibo Yang. 
  
 <span class='anchor' id='-lwzl'></span>
 
@@ -71,11 +76,9 @@ My research interests include:
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) -->
 
+- Li, Zhe, Bicheng Ying, Zidong Liu, and Haibo Yang. "Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization." arXiv preprint arXiv:2405.15861 (2024).
+[[View]] (https://arxiv.org/abs/2405.15861)
 
-
-<!-- <span class='anchor' id='-ryjx'></span>
-
-# 🏅 荣誉奖项 -->
 
 <span class='anchor' id='-xshy'></span>
 

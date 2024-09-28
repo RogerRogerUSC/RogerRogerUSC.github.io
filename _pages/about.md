@@ -30,7 +30,7 @@ My research interests include:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 Education
-- *2024.08 - 2029.05*, <a href="https://www.rit.edu/"><img class="svg" src="" width="23pt"></a> Ph.D. in Computing and Information Sciences, Rochester Institute of Technology, Golisano College of Computing and Information Sciences, Rochester, New York, USA
+- *2024.08 - 2029.05*, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="23pt"></a> Ph.D. in Computing and Information Sciences, Rochester Institute of Technology, Golisano College of Computing and Information Sciences, Rochester, New York, USA
 - *2022.08 - 2024.05*, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> M.S. in Electrical Engineering, University of Southern California, Viterbi School of Engineering, Los Angeles, California, USA
 - *2015.09 - 2019.07*, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> B.E. in Software Engineering, Shanghai University of Electric Power, College of Computer Science and Technology, Shanghai, CHN
  

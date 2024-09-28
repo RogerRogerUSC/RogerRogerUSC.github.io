@@ -2,19 +2,18 @@
 main:
   - title: "About me"
     url: "/#about-me"
-    # url: "/rogerrogerusc/#about-me"
 
   - title: "Education"
-    url: "/rogerrogerusc/#-xl"
+    url: "/#-xl"
 
   - title: "Publications"
-    url: "/rogerrogerusc/#-lwzl"
+    url: "/#-lwzl"
 
   # - title: "Awards"
-  #   url: "/rogerrogerusc/#-ryjx"
+  #   url: "/#-ryjx"
 
   - title: "Service"
-    url: "/rogerrogerusc/#-xshy"
+    url: "/#-xshy"
 
   # - title: "Work"
-  #   url: "/rogerrogerusc/#-gzsx"
+  #   url: "/#-gzsx"

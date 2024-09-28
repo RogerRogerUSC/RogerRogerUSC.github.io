@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Zhe Li is a current Ph.D. student in Computing and Information Sciences at Rochester Institite of Technology. He is mainly focusing on addressing issues caused by heterogeneity in Federated Learning and improving communication and memeory efficiency of FL or large distributed systems by optimization technique (e.g., zeroth-order optimization). 
+Zhe Li is a current Ph.D. student in Computing and Information Sciences at Rochester Institite of Technology. He is mainly focusing on addressing issues caused by heterogeneity in Federated Learning and improving communication and memeory efficiency of FL or large-scale distributed systems by optimization technique (e.g., zeroth-order optimization). 
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 
@@ -26,16 +26,14 @@ My research interests include:
 - Optimization Theory
   
 
-
 <span class='anchor' id='-xl'></span>
 
 # 🎓 Education
-<p style="text-align: justify;">
-<div> - *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="25pt"></a> Rochester Institute of Technology, Rochester, New York, USA 
-</div>
-<div> - *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA </div>
-<div> - *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN </div>
-</p>
+
+- *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="25pt"></a> Rochester Institute of Technology, Rochester, New York, USA 
+- *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA
+- *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN
+
  
 <span class='anchor' id='-lwzl'></span>
 

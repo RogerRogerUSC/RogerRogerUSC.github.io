@@ -40,7 +40,7 @@ My research interests include:
 
 # 🗞️ News
 
-- [2024.10] A paper titled "DeComFL: Federated Learning with Dimension-Free Communication" has been accepted by FL@FM-NeurIPS'24 Oral. 
+- [2024.10] A paper titled "<a href="https://openreview.net/pdf?id=Vy9ltlTXXd"  style="text-decoration: none;">DeComFL: Federated Learning with Dimension-Free Communication</a>" has been accepted by FL@FM-NeurIPS'24 Oral. 
 - [2024.08] Started to serve as a Graduate Research Assistant at RIT. 
 - [2024.08] Joined Rochester Institute of Technology(RIT) for my Ph.D. in Computing and Information Sciences, advised by Prof. Haibo Yang.
 - [2024.05] Successfully obtained my master's degree from the University of Southern California. Fight On!

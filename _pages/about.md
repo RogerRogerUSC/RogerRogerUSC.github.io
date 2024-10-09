@@ -40,7 +40,7 @@ My research interests include:
 
 # 🗞️ News
 
-- [2024.10] A paper titled "<a href="https://openreview.net/pdf?id=Vy9ltlTXXd"  style="text-decoration: none;">DeComFL: Federated Learning with Dimension-Free Communication</a>" has been accepted by FL@FM-NeurIPS'24 Oral. 
+- [2024.10] A paper titled "<a href="https://openreview.net/pdf?id=Vy9ltlTXXd"  style="text-decoration: none;">DeComFL: Federated Learning with Dimension-Free Communication</a>" has been accepted by **FL@FM-NeurIPS'24**(oral). 
 - [2024.08] Started to serve as a Graduate Research Assistant at RIT. 
 - [2024.08] Joined Rochester Institute of Technology(RIT) for my Ph.D. in Computing and Information Sciences, advised by Prof. Haibo Yang.
 - [2024.05] Successfully obtained my master's degree from the University of Southern California. Fight On!
@@ -81,7 +81,7 @@ My research interests include:
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) -->
 
-- Zhe Li, Bicheng Ying, Zidong Liu, and Haibo Yang. Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization. arXiv preprint arXiv:2405.15861, 2024. <a href="https://arxiv.org/abs/2405.15861">[View]</a>
+- Zhe Li, Bicheng Ying, Zidong Liu, and Haibo Yang. Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization. arXiv preprint arXiv:2405.15861, 2024. <a href="https://arxiv.org/abs/2405.15861">[Paper]</a> <a href="https://github.com/ZidongLiu/DeComFL">[Code]</a>
 
 
 

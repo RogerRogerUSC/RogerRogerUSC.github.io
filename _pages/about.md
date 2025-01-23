@@ -30,14 +30,6 @@ My research interests include:
 
 <span class='anchor' id='-xl'></span>
 
-# 🎓 Education
-
-- *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="25pt"></a> Rochester Institute of Technology, Rochester, New York, USA 
-- *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA
-- *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN
-
-<span class='anchor' id='-ryjx'></span>
-
 # 🗞️ News
 
 - [2025.01] Our paper on "Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization" has been accepted to **ICLR 2025**. 
@@ -82,16 +74,22 @@ My research interests include:
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) -->
 
+- Zhe Li, Bicheng Ying, Zidong Liu, Chaosheng Dong, and Haibo Yang. Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization. *International Conference on Learning Representation*, 2025. <a href="https://openreview.net/forum?id=omrLHFzC37&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)">[Openreview]</a> <a href="https://arxiv.org/abs/2405.15861">[Arxiv]</a> <a href="https://github.com/ZidongLiu/DeComFL">[Code]</a>
 - Zhe Li, Bicheng Ying, Zidong Liu, Chaosheng Dong, and Haibo Yang. DeComFL: Dimension-Free Communication in Federated Learning. *In International Workshop on Federated Foundation Models in Conjunction with NeurIPS 2024*, 2024. <a href="https://openreview.net/pdf?id=Vy9ltlTXXd">[Paper]</a> <a href="https://github.com/ZidongLiu/DeComFL">[Code]</a>
-- Zhe Li, Bicheng Ying, Zidong Liu, Chaosheng Dong, and Haibo Yang. Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization. *arXiv preprint arXiv:2405.15861*, 2024. <a href="https://arxiv.org/abs/2405.15861">[Paper]</a> <a href="https://github.com/ZidongLiu/DeComFL">[Code]</a>
 
+# 🎓 Education
 
+- *2024.08 - 2029.05*, Ph.D. in Computing and Information Sciences, <a href="https://www.rit.edu/"><img class="svg" src="/images/rit.svg" width="25pt"></a> Rochester Institute of Technology, Rochester, New York, USA 
+- *2022.08 - 2024.05*, M.S. in Electrical Engineering, <a href="https://www.usc.edu/"><img class="svg" src="/images/usc_logo.png" width="23pt"></a> University of Southern California, Los Angeles, California, USA
+- *2015.09 - 2019.07*, B.E. in Software Engineering, <a href="https://www.shiep.edu.cn/"><img class="svg" src="/images/shiep_logo.jpg" width="23pt"></a> Shanghai University of Electric Power, Shanghai, CHN
+
+<span class='anchor' id='-ryjx'></span>
 
 <span class='anchor' id='-xshy'></span>
 
 # 🏛️ Service
 
-- Reviewer: KDD 2024 Research Track
+- Reviewer: KDD 2024, INFOCOM 2025
 
 <!-- <span class='anchor' id='-gzsx'></span>
 

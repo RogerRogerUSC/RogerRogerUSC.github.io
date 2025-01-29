@@ -32,7 +32,7 @@ My research interests include:
 
 # 🗞️ News
 
-- [2025.01] Our paper on "<a href="https://arxiv.org/abs/2405.15861" style="text-decoration: none;">Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization</a>" has been accepted to **ICLR 2025**. 
+- [2025.01] Our paper "<a href="https://arxiv.org/abs/2405.15861" style="text-decoration: none;">Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization</a>" has been accepted to **ICLR 2025**. 
 - [2024.10] Our paper "<a href="https://openreview.net/pdf?id=Vy9ltlTXXd" style="text-decoration: none;">DeComFL: Federated Learning with Dimension-Free Communication</a>" has been accepted to **FL@FM-NeurIPS 2024** (oral). 
 - [2024.08] Joined Rochester Institute of Technology(RIT) for my Ph.D. in Computing and Information Sciences, advised by Prof. Haibo Yang, and started to serve as a Graduate Research Assistant at RIT.
 - [2024.05] Successfully obtained my master's degree from the University of Southern California. Fight On!

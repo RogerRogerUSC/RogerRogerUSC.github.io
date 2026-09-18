@@ -51,14 +51,31 @@
 
 <h2>Project I: Zeroth-Order Optimization</h2>
 
-<h3>Zeroth-Order Optimization for Federated Learning</h3>
+<h3>Understanding Learning Dynamics of Zeroth-Order Optimiztaion</h3>
 
 <p>
-Scaling federated learning (FL) to large models is fundamentally constrained by
-the cost of communicating high-dimensional model updates.
- To achieve <span style="color: red;">dimension-free communication</span> in FL, we first address this challenge with <b>DeComFL</b> 
+Despite the growing success of zeroth-order (ZO) optimization in large-scale learning, a fundamental question
+remains: <b>why can ZO work effectively for models with billions of parameters?</b>
+Classical convergence analyses often predict a strong dependence on parameter dimension, but
+provide limited insight into how ZO actually learns. In our <b>ZO Learning Dynamics</b>
+[<a href="https://openreview.net/forum?id=UTIylOfVUb&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FConference%2FAuthors%23your-submissions)">ICML 2026</a>],
+we study ZO optimization from a kernel perspective and show that its learning dynamics are
+governed by a randomly projected empirical Neural Tangent Kernel.
+Leveraging the <b>Johnson-Lindenstrauss lemma</b>, we show that this random projection can
+preserve the first-order kernel structure with sufficiently many perturbations, and that the
+approximation quality depends primarily on the number of perturbations and the output dimension,
+rather than the massive parameter dimension. This provides a new explanation for why ZO
+optimization can remain effective even for highly overparameterized models.
+</p>
+
+<h3>Zeroth-Order Optimization for Federated LLM Fine-Tuning</h3>
+
+<p>
+Scaling federated learning (FL) to LLMs is fundamentally constrained by the cost of communicating 
+high-dimensional model updates. To achieve <span style="color: red;">dimension-free communication</span> in FL, we first address this challenge with <b>DeComFL</b> 
 [<a href="https://openreview.net/forum?id=omrLHFzC37">ICLR 2025</a>], which exploits the compact
-structure of ZO updates: each gradient scalar paired with a random seed used to generate and reconstruct the corresponding perturbation vector.
+structure of ZO updates: each gradient scalar paired with a random seed used to generate 
+and reconstruct the corresponding perturbation vector.
 Building on this principle, we further develop <b>HiSo</b> 
 [<a href="https://openreview.net/forum?id=lJqssVKeR7&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)">ICLR 2026</a>] 
 to overcome the slow convergence of conventional ZO methods through Hessian-informed optimization,
@@ -68,6 +85,24 @@ Together, these methods establish ZO optimization as a new communication
 primitive for scalable, efficient, and robust FL.
 </p>
 
+<h3>Zeroth-Order Optimization for Resource-Constrained Training</h3>
+
+<p>
+Training LLMs across resource-constrained devices is fundamentally limited by memory,
+communication, and system heterogeneity. We first address these challenges with <b>MU-SplitFed</b>
+[<a href="https://openreview.net/forum?id=MOAmJKj2Uc&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions)">NeurIPS 2025</a>],
+which combines ZO optimization with unbalanced server-client updates to reduce communication
+rounds and mitigate straggler-induced latency in split federated learning. Building on the
+potential of ZO for resource-constrained training, we develop <b>HOSL</b>
+[<a href="https://ieeexplore-ieee-org.ezproxy.rit.edu/abstract/document/11568241?casa_token=6jvuUacC4HYAAAAA:h32CDnKJ1ba9rtTLxd2oNf-SiahOXOPDzaKidbI8DDYB51aOKZFoY8_59MmXmacY2I2vSLuHdA">WiOpt 2026</a>],
+a hybrid-order framework that combines memory-efficient ZO optimization on constrained clients
+with first-order optimization on powerful servers. We further extend ZO to model-parallel
+LLM fine-tuning with <b>SparQ</b>
+[<a href="https://openreview.net/forum?id=9wpm4fbBJI&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">TMLR 2026</a>],
+which integrates ZO optimization with activation sparsity to jointly reduce memory and
+communication overhead. Together, these methods demonstrate how ZO optimization can enable
+scalable training across heterogeneous and resource-constrained computing environments.
+</p>
 
 </td>
 </tr>

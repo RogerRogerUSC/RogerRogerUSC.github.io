@@ -53,6 +53,48 @@
 
 <h3>Understanding Learning Dynamics of Zeroth-Order Optimiztaion</h3>
 
+<div id="calculation-pdf"></div>
+<p id="calculation-pdf-status">Loading calculation...</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script type="text/javascript">
+  pdfjsLib.GlobalWorkerOptions.workerSrc =
+    "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+  const pdfContainer = document.getElementById("calculation-pdf");
+  const pdfStatus = document.getElementById("calculation-pdf-status");
+
+  pdfjsLib.getDocument("material/calculation.pdf").promise.then(function (pdf) {
+    const pages = [];
+
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      pages.push(pdf.getPage(pageNumber));
+    }
+
+    return Promise.all(pages).then(function (loadedPages) {
+      return Promise.all(loadedPages.map(function (page) {
+        const viewport = page.getViewport({ scale: 1.5 });
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        canvas.style.width = "100%";
+        canvas.style.height = "auto";
+        canvas.style.display = "block";
+        canvas.style.marginBottom = "1em";
+        pdfContainer.appendChild(canvas);
+
+        return page.render({ canvasContext: context, viewport: viewport }).promise;
+      }));
+    });
+  }).then(function () {
+    pdfStatus.remove();
+  }).catch(function () {
+    pdfStatus.innerHTML = '<a href="material/calculation.pdf">Open calculation.pdf</a>';
+  });
+</script>
+
 <p>
 Despite the growing success of zeroth-order (ZO) optimization in large-scale learning, a fundamental question
 remains: <b>why can ZO work effectively for models with billions of parameters?</b>
@@ -103,6 +145,8 @@ which integrates ZO optimization with activation sparsity to jointly reduce memo
 communication overhead. Together, these methods demonstrate how ZO optimization can enable
 scalable training across heterogeneous and resource-constrained computing environments.
 </p>
+
+
 
 </td>
 </tr>

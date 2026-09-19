@@ -73,7 +73,7 @@
 
     return Promise.all(pages).then(function (loadedPages) {
       return Promise.all(loadedPages.map(function (page) {
-        const viewport = page.getViewport({ scale: 1.5 });
+        const viewport = page.getViewport({ scale: 3 });
         const canvas = document.createElement("canvas");
         const context = canvas.getContext("2d");
 
@@ -145,6 +145,69 @@ which integrates ZO optimization with activation sparsity to jointly reduce memo
 communication overhead. Together, these methods demonstrate how ZO optimization can enable
 scalable training across heterogeneous and resource-constrained computing environments.
 </p>
+
+<h2>Project II: Federated Learning</h2>
+
+<h3>Federated Learning under Arbitrary Client Participation</h3>
+
+<div id="focus-pdf"></div>
+<p id="focus-pdf-status">Loading focus...</p>
+
+<script type="text/javascript">
+  const focusPdfContainer = document.getElementById("focus-pdf");
+  const focusPdfStatus = document.getElementById("focus-pdf-status");
+
+  pdfjsLib.getDocument("material/focus.pdf").promise.then(function (pdf) {
+    const pages = [];
+
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      pages.push(pdf.getPage(pageNumber));
+    }
+
+    return Promise.all(pages).then(function (loadedPages) {
+      return Promise.all(loadedPages.map(function (page) {
+        const viewport = page.getViewport({ scale: 8 });
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        canvas.style.width = "80%";
+        canvas.style.height = "auto";
+        canvas.style.display = "block";
+        canvas.style.marginBottom = "1em";
+        focusPdfContainer.appendChild(canvas);
+
+        return page.render({ canvasContext: context, viewport: viewport }).promise;
+      }));
+    });
+  }).then(function () {
+    focusPdfStatus.remove();
+  }).catch(function () {
+    focusPdfStatus.innerHTML = '<a href="material/focus.pdf">Open focus.pdf</a>';
+  });
+</script>
+
+
+<p>
+FL in practice often operates with only a subset of clients participating in
+each communication round. When client availability is heterogeneous and unpredictable, such 
+arbitrary client participation can introduce persistent optimization bias and prevent
+conventional FL methods from converging to the desired global solution.
+We address this challenge with <b>FAST</b> [<a href="https://www.ijcai.org/proceedings/2025/0628.pdf">IJCAI 2025</a>], 
+a lightweight mechanism for FL under arbitrary client participation. We further develop <b>FOCUS</b>
+[<a href="https://openreview.net/forum?id=TeocEZCWnr">NeurIPS 2025</a>], which reinterprets
+FL through the lens of <b>decentralized optimization over time-varying graphs</b>.
+By modeling client participation, local updates, and aggregation as stochastic matrix operations,
+FOCUS introduces a push-pull strategy that transforms participation-induced bias into delayed gradient information. 
+This perspective enables exact linear convergence under arbitrary client participation without knowing 
+or estimating client participation probabilities, and provides a principled connection between federated and decentralized optimization.
+</p>
+
+<h3>Communication-Efficient Federated Learning</h3>
+
+<p>See Project I: Zeroth-Order Optimization for Federated LLM Fine-Tuning.</p>
+
 
 
 

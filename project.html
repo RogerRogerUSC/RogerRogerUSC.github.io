@@ -79,7 +79,7 @@
 
         canvas.width = viewport.width;
         canvas.height = viewport.height;
-        canvas.style.width = "80%";
+        canvas.style.width = "65%";
         canvas.style.height = "auto";
         canvas.style.display = "block";
         canvas.style.marginBottom = "1em";
@@ -208,6 +208,59 @@ or estimating client participation probabilities, and provides a principled conn
 
 <p>See Project I: Zeroth-Order Optimization for Federated LLM Fine-Tuning.</p>
 
+<h2>Project III: Understanding Learning and Optimization Mechanisms.</h2>
+
+<div id="sl-pdf"></div>
+<p id="sl-pdf-status">Loading sl...</p>
+
+<script type="text/javascript">
+  const slPdfContainer = document.getElementById("sl-pdf");
+  const slPdfStatus = document.getElementById("sl-pdf-status");
+
+  pdfjsLib.getDocument("material/sl.pdf").promise.then(function (pdf) {
+    const pages = [];
+
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      pages.push(pdf.getPage(pageNumber));
+    }
+
+    return Promise.all(pages).then(function (loadedPages) {
+      return Promise.all(loadedPages.map(function (page) {
+        const viewport = page.getViewport({ scale: 8 });
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        canvas.style.width = "65%";
+        canvas.style.height = "auto";
+        canvas.style.display = "block";
+        canvas.style.marginBottom = "1em";
+        slPdfContainer.appendChild(canvas);
+
+        return page.render({ canvasContext: context, viewport: viewport }).promise;
+      }));
+    });
+  }).then(function () {
+    slPdfStatus.remove();
+  }).catch(function () {
+    slPdfStatus.innerHTML = '<a href="material/sl.pdf">Open sl.pdf</a>';
+  });
+</script>
+
+<p>
+This project is driven by a fundamental question: <b>WHY do certain learning/optimization approaches work?</b>
+First, we ask why <b>zeroth-order optimization</b>, despite its classical dimension-dependent
+limitations, can effectively fine-tune LLMs with billions of parameters. We answer this question by connecting 
+ZO learning dynamics to first-order learning through random projection theory, showing that the approximation 
+quality can depend primarily on the number of perturbations and output dimension rather than the massive parameter dimension [<a href="https://openreview.net/forum?id=UTIylOfVUb&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FConference%2FAuthors%23your-submissions)">ICML 2026</a>]. 
+Second, we ask why <b>subliminal learning</b> works: how can a student acquire task knowledge from seemingly
+unrelated outputs without explicit task supervision? Using the empirical Neural Tangent
+Kernel, we characterize how learning signals propagate from ghost-output supervision
+to task predictions, revealing the mechanism behind this unexpected knowledge transfer and
+the key conditions that determine when it occurs [<a href="https://arxiv.org/abs/2609.23260">Arxiv</a>]. Together, these works seek to explain not
+only whether a learning approach works, but fundamentally why it works.
+</p>
 
 
 

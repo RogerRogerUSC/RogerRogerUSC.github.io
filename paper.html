@@ -92,6 +92,30 @@
               height: 16px;
               display: block;
             }
+
+            .journal-papers {
+              list-style-type: none;
+            }
+
+            .journal-papers > li::marker {
+              content: "J" counter(list-item) ". ";
+            }
+
+            .conference-papers {
+              list-style-type: none;
+            }
+
+            .conference-papers > li::marker {
+              content: "C" counter(list-item) ". ";
+            }
+
+            .preprint-papers {
+              list-style-type: none;
+            }
+
+            .preprint-papers > li::marker {
+              content: "P" counter(list-item) ". ";
+            }
           </style>
 
           <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden;">
@@ -111,7 +135,7 @@
           </svg>
 
           <h2>Conference Papers</h2>
-          <ol reversed>
+          <ol class="conference-papers" reversed start="9">
             <li style="margin-bottom: 12px;">
               <p>
                 <a href="https://dl-acm-org.ezproxy.rit.edu/doi/10.1145/3789240.3828748">
@@ -310,7 +334,7 @@
           </ol>
 
           <h2>Journal Papers</h2>
-          <ol reversed>
+          <ol class="journal-papers" reversed start="2">
             <li style="margin-bottom: 12px;">
               <p>
                 <a href="https://openreview.net/forum?id=9wpm4fbBJI&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">
@@ -341,17 +365,22 @@
           </ol>
 
           <h2>Preprints and Submitted Papers</h2>
-          <!-- <ul>
+          <ol class="preprint-papers" reversed start="1">
             <li style="margin-bottom: 12px;">
               <p>
-                <a href="">Breaking Memory and Communication Barriers in Model-Parallel Fine-Tuning of Large Language Models</a>.<br />
-                <b>Zhe Li</b>, Bicheng Ying, Zidong Liu, and Haibo Yang.<br />
-                <i>Under Review.</i><br />
+                <a href="https://arxiv.org/abs/2609.23260">
+                  Why Ghost Outputs Teach: A Kernel-Based Understanding of Subliminal Learning
+                </a><br />
+                <u>Zhe Li</u>, Bicheng Ying, Chaosheng Dong, and Haibo Yang.<br />
+                <i>Under Review.</i>
+                <a class="arxiv-link" href="https://arxiv.org/abs/2609.23260" aria-label="arXiv" title="arXiv">
+                  <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#arxiv-icon" xlink:href="#arxiv-icon"></use>
+                  </svg>
+                </a>
               </p>
             </li>
-          </ul> -->
-          <!-- <ul>
-          </ul> -->
+          </ol>
         </td>
       </tr>
     </table>

@@ -201,6 +201,31 @@ ul {
 	list-style-type: square;
 }
 
+.reviewer-services h2 {
+	color: #000000;
+	font-size: 115%;
+	font-weight: bold;
+	line-height: 1.4;
+	margin: 1.2em 0 0.35em;
+	padding: 0;
+	border: none;
+}
+
+#layout-content .reviewer-services h2:first-child {
+	margin-top: 0;
+}
+
+.reviewer-services ul {
+	margin: 0;
+	padding-left: 2.4em;
+	list-style-type: square;
+}
+
+.reviewer-services li {
+	line-height: 1.5;
+	margin-bottom: 0.35em;
+}
+
 p + ul, p + ol {
 	margin-top: -0.5em;
 }

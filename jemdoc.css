@@ -250,7 +250,11 @@ p + ul, p + ol {
 }
 
 .research-interests ul {
-	margin-top: 0;
+	margin: 0;
+}
+
+.research-interests li:last-child p {
+	margin-bottom: 0;
 }
 
 li ul, li ol {
